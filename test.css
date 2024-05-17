@@ -1,0 +1,184 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.flexbox {
+  display: flex;
+  max-width: 100vw;
+  height: fit-content;
+  flex-wrap: wrap;
+}
+
+.navbar {
+  border: solid black;
+  height: 10vh;
+  justify-content: space-around;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.4rem;
+}
+a:hover {
+  color: #2596be;
+}
+
+.nav-links {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-between;
+  gap: 10rem;
+  height: 6rem;
+  align-items: center;
+  flex-direction: row-reverse;
+}
+
+h1 {
+  height: 12vh;
+  color: white;
+  text-align: end;
+  margin-right: 5vw;
+  margin-top: 5vh;
+}
+
+title {
+  display: flex;
+  border: solid rgb(10, 243, 22);
+  justify-content: center;
+  align-items: center;
+  height: fit-content;
+}
+.header {
+  display: flex;
+  flex-direction: column;
+  background-color: #4e3797;
+
+  width: 110vw;
+  height: 80vh;
+  background-repeat: no-repeat;
+  /* background-size:100rem; */
+  overflow-x: clip;
+  /* margin-bottom: 8rem; */
+}
+
+.testimg {
+  width: 100vw;
+  height: 80vh;
+  border: solid black;
+  background-image: url(test-bg.png);
+  background-size: cover;
+
+  background-repeat: no-repeat;
+}
+
+.badge {
+  position: absolute;
+  width: 25vh;
+  /* margin-top: -20rem;
+    margin-left: 10rem; */
+  z-index: 10000;
+  top: 37rem;
+  left: 8rem;
+}
+
+.logowhite {
+  width: 80%;
+}
+
+.englishbtn {
+  margin-left: 5vw;
+}
+
+.cert {
+  /* margin-top: 8.1rem; */
+  /* margin-top: -4.3rem; */
+  width: 100vw;
+  border: solid red;
+  justify-content: end;
+  flex-direction: column;
+  display: flex;
+}
+
+.certTitle {
+  color: black;
+  margin-top: 5rem;
+  margin-bottom: 1rem;
+}
+.cert2 {
+  /* margin-top: -4.3rem; */
+  width: 100vw;
+  border: solid red;
+  justify-content: end;
+  flex-direction: column;
+  display: flex;
+}
+
+.certlist {
+  display: flex;
+  justify-content: end;
+  margin-right: 5rem;
+  list-style-type: none;
+  justify-content: space-around;
+  margin-left: 60rem;
+  flex-wrap: wrap;
+}
+.certTitle2 {
+  color: black;
+  margin-bottom: 0;
+}
+
+.brdr-li {
+  border-top: solid #4e3797;
+  border-width: 10px;
+  /* text-align: justify; */
+  /* font-size: 1.5rem; */
+  vertical-align: bottom;
+  line-height: 4rem;
+  font-weight: bold;
+}
+
+p {
+  direction: rtl;
+  padding-right: 6rem;
+  font-size: 1.5rem;
+  margin-top: -5rem;
+}
+
+.companylist {
+    display: flex;
+    width: 60vw;
+    justify-content: center;
+    border: solid #8C63EF;
+    border-radius: 20px;
+    flex-wrap: wrap;
+    margin-top: 4vh;
+    padding: 20px;
+    
+
+}
+
+.companytitle {
+    color: black;
+    
+}
+
+.companies
+{
+    
+    display: flex;
+    flex-flow: row wrap;
+    width: 80vw;
+    justify-content: space-evenly;
+    column-gap: 69px;
+    row-gap: 60px;
+    
+}
+
+.bigcompanycontainer {
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    width: 100vw;
+}
