@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+}
+
+body, h1, h2, h3, h4, h5, h6, p, ul, nav, div, img, a {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:white;
+    padding: 1rem;
+    direction: rtl; /* This ensures the text direction is from right to left */
+}
+
+.logo img {
+    max-height: 50px; /* Adjust this value according to your design */
+    order:2 ;
+    margin: left 5%;
+}
+
+.navbar-right {
+    order: 2; /* Move the logo to the right */
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    flex: 1;
+    justify-content: center; 
+    gap: 4.5rem; /* Space between items */
+    
+}
+
+.nav-links li {
+    margin: 0;
+}
+
+.nav-links a {
+    color: rgb(16, 16, 16);
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+}
+
+
+
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    color: white;
+    background-color: black;
+    background-size: cover;
+    /* استخدم 'fixed' لمنع تمرير الفيديو مع التمرير  background: url('WhatsApp\ Video\ 2024-05-17\ at\ 9.44.23\ AM\ \(1\).mp4');*/
+    background-attachment: fixed;
+}
+
+.center {
+    display: flex;
+    flex-direction: column;
+}
+
+.text-line {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+.button-container {
+    margin-top: 1rem;
+}
+
+button {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    background-color: #32ae4f;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 8rem;
+    white-space: 5%;
+    padding: 0.7rem 1.5rem; /* زيادة حجم الحشو للزر */
+    font-size: 4.2rem; /* زيادة حجم الخط للزر */
+    
+}
+
+button:hover {
+    background-color: #32ae4f;
+}
+.text-line {
+    font-size: 8.5rem; /* زيادة حجم الخط للنص */
+    margin-bottom: 0.5rem;
+}
