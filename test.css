@@ -11,7 +11,7 @@
 }
 
 .navbar {
-  border: solid black;
+  /* border: solid black; */
   height: 10vh;
   justify-content: space-around;
 }
@@ -45,7 +45,7 @@ h1 {
 
 title {
   display: flex;
-  border: solid rgb(10, 243, 22);
+  /* border: solid rgb(10, 243, 22); */
   justify-content: center;
   align-items: center;
   height: fit-content;
@@ -66,7 +66,7 @@ title {
 .testimg {
   width: 100vw;
   height: 80vh;
-  border: solid black;
+  /* border: solid black; */
   background-image: url(test-bg.png);
   background-size: cover;
 
@@ -95,7 +95,7 @@ title {
   /* margin-top: 8.1rem; */
   /* margin-top: -4.3rem; */
   width: 100vw;
-  border: solid red;
+  /* border: solid red; */
   justify-content: end;
   flex-direction: column;
   display: flex;
@@ -109,7 +109,7 @@ title {
 .cert2 {
   /* margin-top: -4.3rem; */
   width: 100vw;
-  border: solid red;
+  /* border: solid red; */
   justify-content: end;
   flex-direction: column;
   display: flex;
@@ -121,7 +121,7 @@ title {
   margin-right: 5rem;
   list-style-type: none;
   justify-content: space-around;
-  margin-left: 60rem;
+  margin-left: 40rem;
   flex-wrap: wrap;
 }
 .certTitle2 {
@@ -171,7 +171,7 @@ p {
     flex-flow: row wrap;
     width: 80vw;
     justify-content: space-evenly;
-    column-gap: 69px;
+    column-gap: 71px;
     row-gap: 60px;
     
 }
