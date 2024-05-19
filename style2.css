@@ -90,14 +90,14 @@ header {
 }
 .content-section {
     padding: 20px; 
-    margin-top: 22em;
+    margin-top: 8em;
 }
 
 .who {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
-    padding-right: 10rem;
+    padding-right: 6rem;
 }
 
 .who h2, .who p {
@@ -110,6 +110,7 @@ header {
 }
 .who p{
     font-size: 2em;
+    
 }
 .image3{
     display: flex;
