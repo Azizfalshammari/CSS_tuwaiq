@@ -182,6 +182,7 @@ p {
     justify-content: center;
     flex-flow: row wrap;
     width: 100vw;
+    margin-bottom: 5rem;
 }
 
 .footer {
