@@ -1,5 +1,6 @@
 *{
     margin: 0;
+    overflow-x: clip;
 }
 
 body, h1, h2, h3, h4, h5, h6, p, ul, nav, div, img, a {
@@ -113,7 +114,7 @@ body {
 body {
     font-family: Arial, sans-serif;
     direction: rtl; 
-    background-color: #f4f4f4;
+    /* background-color: #f4f4f4; */
     text-align: center;
     direction: rtl;
 }
@@ -160,8 +161,10 @@ section {
 
 .cards{
     display: flex;
-    justify-content: space-around;
+    /* justify-content: space-around; */
+    justify-content: center;
     margin-bottom: 5em;
+    column-gap: 2rem;
 
 }
 
@@ -311,9 +314,176 @@ section {
 }
 
 /*hear*/
+.bootcampsbtn {
+    
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    padding-left: 6rem;
+}
+
+.bootcampsbtnlink {
+padding: 1rem;
+border: solid black;
+border-radius: 12rem;
+border-width: 1px;
+
+}
+
+/* 
+Number cards */
+h1 {
+    margin-top: 5rem;
+    margin-bottom: -3rem;
+    /* display:block; */
+    color: #4e3797;
+    margin-left: 1rem;
+    
+    
+}
+
+.academynumbers {
+    width: 100vw;
+    /* border: solid black; */
+    background-color: white;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    display: flex;
+    justify-content: center;
+    
+    flex-wrap: wrap
+    
+    
+}
+.cardnumbers {
+    /* background-color: white; */
+    display: flex;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+    /* padding: 20px; */
+    /* width: 300px; */
+    text-align: right; 
+    /* margin-top: 10em;  */
+    width: 15rem;
+    justify-content: space-between;
+    flex-flow: column wrap;
+    row-gap: 1rem;
+    text-align: center;
+    padding: 2rem
+
+}
+
+.numberscardholder {
+    display: flex;
+    justify-content: center;
+    column-gap: 5rem;
+}
+.numbersicon {
+    background-color: #91D8DB;
+    width: 4rem;
+    height: 4rem;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    border-radius: 1000px;
+    margin: 2rem;
+    margin-right: 3.5rem;
+}
+
+.numbertitle {
+    color: #91d8db;
+}
+
+.numbersNumber {
+    color: #4e3797;
+}
 
 
+/* activity cards */
+.activityhead {
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+    /* display:block; */
+    color: white;
+    margin-left: 1rem;
+    margin-bottom: -5rem;
+   
+    
+    
+}
 
+.academyactivity {
+    width: 100vw;
+    /* border: solid black; */
+    background-color: #4e3797;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    display: flex;
+    justify-content: center;
+    padding-top: 10rem;
+    flex-wrap: wrap
+    
+    
+}
+.cardactivity {
+    /* background-color: white; */
+    display: flex;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+    /* padding: 20px; */
+    /* width: 300px; */
+    
+    /* margin-top: 10em;  */
+    width: 15rem;
+    /* justify-content: space-between; */
+    flex-flow: column wrap;
+    row-gap: 4rem;
+    text-align: center;
+    padding: 2rem;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+
+}
+
+.activitycardholder {
+    display: flex;
+    justify-content: center;
+    column-gap: 5rem;
+}
+.activityicon {
+    
+    /* width: 4rem;
+    height: 4rem;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    border-radius: 1000px;
+    margin: 2rem;
+    margin-right: 3.5rem; */
+    width: 3rem;
+    
+}
+
+.activitytitle {
+    color: #91d8db;
+    font-size: 2rem;
+}
+
+.learnmore
+ {
+    color: white;
+    background-color: #4e3797;
+    border-radius: 2rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin-bottom: -1.5rem;
+    font-weight: bolder;
+}
 
 
 
