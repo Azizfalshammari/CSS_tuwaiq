@@ -76,8 +76,7 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    overflow: hidden;
-    z-index: -1; /* لضمان أن الفيديو يكون خلف النص */
+  
 }
 
 .video-back video {
@@ -449,6 +448,7 @@ section {
     text-align: center;
     margin-top: -6rem;
     margin-left: 5rem; 
+    color: white;
   }
 
   .sidelogos {
