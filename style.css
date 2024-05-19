@@ -435,10 +435,10 @@ h1 {
     /* width: 300px; */
     
     /* margin-top: 10em;  */
-    width: 15rem;
+    width: 17rem;
     /* justify-content: space-between; */
     flex-flow: column wrap;
-    row-gap: 4rem;
+    row-gap: 5rem;
     text-align: center;
     padding: 2rem;
     justify-content: center;
